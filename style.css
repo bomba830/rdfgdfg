@@ -3,11 +3,20 @@ text-align: center;
 
 
 }
+.main{
+
+    background-color: rgb(128, 188, 189);
+}
 .poga{
 background-color:yellow;
 text-align: right;
 width: 100px;
 height: 50px;
+
+}
+.bilde{
+
+
 
 }
 
