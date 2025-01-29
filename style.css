@@ -6,6 +6,7 @@ text-align: center;
 .main{
 
     background-color: rgb(128, 188, 189);
+    height:1000px ;
 }
 .poga{
 background-color:yellow;
@@ -15,9 +16,15 @@ height: 50px;
 
 }
 .bilde{
-
+    position: absolute;
+    top: 70;
+    right: 0;
 
 
 }
-
+.video{
+position: absolute;
+top: 100;
+left: 100;
+}
 
