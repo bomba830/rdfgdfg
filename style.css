@@ -6,7 +6,7 @@ text-align: center;
 .main{
 
     background-color: rgb(128, 188, 189);
-    height:1000px ;
+    height: 700px; ;
 }
 .poga{
 background-color:yellow;
@@ -24,7 +24,16 @@ height: 50px;
 }
 .video{
 position: absolute;
-top: 100;
-left: 100;
+top: 300px;
+left: 100px;
 }
-
+.otradala{
+    height: 700px;
+    background-color: rgb(170, 217, 187);
+    top: 100px;
+}
+.darbs{
+    
+    top: 700px;
+    text-align: center;
+}
