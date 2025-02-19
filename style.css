@@ -6,7 +6,7 @@ text-align: center;
 .main{
 
     background-color: rgb(128, 188, 189);
-    height: 760px; ;
+    height: 1000px; ;
 }
 .poga{
 background-color:rgb(249, 247, 207);
@@ -21,21 +21,22 @@ border-radius: 10%;
 background-color:rgb(249, 247, 207);
 margin: auto;
 border: 2px solid black;
-height: 150px;
+height: 250px;
 width: 1000px;
+font-size: 20px;
 
 }
 
 .bilde{
     position: absolute;
-    top: 250px;
+    top: 350px;
     right: 0;
 
 
 }
 .video{
 position: absolute;
-top: 350px;
+top: 500px;
 left: 100px;
 
 }
@@ -46,8 +47,25 @@ left: 100px;
 }
 .virsraksts{
     text-align: center;
+    font-size: 40px;
 }
 .teksts2{
     text-align: center;
+    background-color:rgb(249, 247, 207);
+left: 100px;
+border: 2px solid black;
+height: 200px;
+width: 1000px;
+font-size: 20px;
     
+}
+.bilde2{
+    position: absolute;
+    top: 1050px;
+    right: 50px;
+}
+.video2{
+    position: absolute;
+    top: 1400px;
+    left: 100px;
 }
