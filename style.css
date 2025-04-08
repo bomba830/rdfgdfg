@@ -6,7 +6,7 @@ text-align: center;
 .main{
 
     background-color: rgb(128, 188, 189);
-    height: 2200px; 
+    height: 200% 
 }
 .main2{
     background-color: rgb(128, 188, 189);
@@ -18,7 +18,7 @@ text-align: center;
 width: 150px;
 height: 80px;
 margin-top: 50px;
-border: 2px solid black;
+border: 4px solid black;
 border-radius: 10%;
 margin-left: 40px;
 font-size: 20px;
@@ -35,14 +35,14 @@ font-size: 30px;
 
 .bilde{
     position: absolute;
-    top: 510px;
+    top: 60%;
     right: 0;
-
 
 }
 .video{
 position: absolute;
-top: 700px;
+
+top: 800px;
 left: 100px;
 background-color:rgb(213, 240, 193);
 
@@ -72,13 +72,13 @@ margin: auto;
 }
 .bilde2{
     position: absolute;
-    top: 1500px;
+    top: 1700px;
     right: 50px;
     height: 400px;
 }
 .video2{
     position: absolute;
-    top: 1750px;
+    top: 1900px;
     left: 100px;
     background-color:rgb(213, 240, 193);
 border: 5px solid black;
@@ -173,4 +173,23 @@ border: 4px solid black;
 border-radius: 10%;
 margin-left: 40px;
 font-size: 20px;
+}
+.poga3{
+background-color:rgb(249, 247, 207);
+text-align: center;
+width: 100px;
+height: 80px;
+margin-top: 20px;
+border: 4px solid black;
+border-radius: 10%;
+margin-left: 40px;
+font-size: 20px;
+}
+.aptauja{
+    background-color:rgb(170, 217, 187);
+    border: 4px solid black;
+    height: 1900px;
+    width: 640px;
+    margin: auto;
+    
 }
