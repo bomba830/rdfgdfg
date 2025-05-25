@@ -12,6 +12,21 @@
   </script>
 </head>
 <body>
+   <input type="number" id="ageInput" placeholder="Enter your age" class="Vecums">
+  <button class="Vecums2" onclick="checkAge()">Check Age</button>
+
+  <script>
+    function checkAge() {
+      var age = document.getElementById("ageInput").value;
+
+      if (age >= 18) {
+        alert("Tu esi pilngadīgs. Turpināsim ar aptauju.");
+      } else {
+        alert("Tu neesi pilngadīgs. Šī aptauja ir paredzēta tikai pilngadīgajiem.");
+        window.location.href = "index.html"; // Redirect
+      }
+    }
+  </script>
 <div class="main">
       <button onclick="goToNextPage()" class="poga">Pirmā lapa</button>
 
