@@ -5,20 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+      <script>
+    window.onload = function() {
+      alert("Sveicināts mūsu mājaslapā!");
+    };
+  </script>
+    
 </head>
 <body><div class="main">
     <div class="header">
     
    <div class="virs"> <h1>Steroidi</h1>
    </div>
-    <div class="poga">
-    <a href="otralapa.html">
-        <br>Uzzināt vairāk</br>
-    </a></div>
-    <div class="poga3">
-      <a href="tresalapa.html">
-          <br>Aptauja</br>
-      </a></div>
+   
+ 
+  <button onclick="goToNextPage()" class="poga">Uzzināt vairāk</button>
+
+  <script>
+    function goToNextPage(otralapa) {
+      window.location.href = "otralapa.html";
+    }
+  </script>
+
+   
+    
+
+      
 
    <div class="teksts"><p> Lai saprastu, kas ir steroīdi, vispirms ir jārunā par hormoniem. Hormoni ir bioloģiski aktīvas vielas, kas regulē organisma darbību.
  Tās izdala atsevišķas šūnas vai endokrīnie dziedzeri, piemēram, virsnieres, vairogdziedzeris, aizkuņģa dziedzeris, sēklinieki un olnīcas.</p> 
